@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <meta charset= "UTF-8">
+    <title>Connexió dels serveis</title>
+</head>
+<body>
+    <h2>Seleccioneu els serveis per habilitar i introduïu la IP corresponent</h2>
+    <form action="index.php" method="POST">
+        <input type="checkbox" name="SSH" value="22"> SSH<br>
+        <input type="checkbox" name="HTTP" value="80"> HTTP<br>
+        <input type="checkbox" name="MYSQL" value="3306"> MySQL<br>
+        <input type="checkbox" name="SMTP" value="25"> SMTP<br>
+        <input type="checkbox" name="POP3" value="110"> POP3<br>
+	<input type="checkbox" name="HTTPS" value="443"> HTTPS<br>
+        <input type="checkbox" name="IMAP" value="143"> IMAP<br>
+
+        <br>
+        <p><strong>Adreça IP:</strong></p>
+        <input type="text" name="IP" required><br><br>
+        <button type="submit">Regles IPTABLES</button>
+	<p>Autors: Iago Valadez	& Alex Serrano</p>
+	<p>Grup: 14</p>
+    </form>
+</body>
+</html>

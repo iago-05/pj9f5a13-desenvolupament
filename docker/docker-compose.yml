@@ -1,0 +1,15 @@
+#docker-compose.yml de desenvolupament:
+
+version: '3.8'
+
+services:
+  web:
+    image: php:8.3-apache
+    container_name: web
+    ports:
+      - "8080:80"
+    volumes:
+      - ../codi:/var/www/html
+
+
+
