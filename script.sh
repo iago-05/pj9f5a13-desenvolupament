@@ -1,4 +1,4 @@
 #!/bin/bash
-cp *.html /projecte-codi/
-cp *.php /projecte-codi/
+cp codi/*.html /projecte-codi/
+cp codi/*.php /projecte-codi/
 exit 0
